@@ -1,0 +1,97 @@
+main{
+    .main_cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 67px;
+        padding: 40px 0px 40px 0px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px 5px #D7D7DD;
+        .main_card{
+            padding: 0px 122px 0px 80px;
+            border-right: 1px solid #D7D7DD;
+        }
+        .main_card1{
+            padding: 0px 122px 0px 80px;
+            border-right: 1px solid #D7D7DD;
+        }
+        .main_card2{
+            padding: 0px 122px 0px 80px;
+        }
+    }
+}
+@media screen and (max-width: 1105px) {
+    main{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    main .main_cards{
+        grid-template-columns: repeat(1,1fr);
+        box-shadow: none;
+    }
+    main .main_cards .main_card{
+        display: flex;
+        gap: 32px;
+        padding-bottom: 40px;
+        box-shadow: 0px 0px 5px 5px #D7D7DD;
+        padding-top: 32px;
+        border-radius: 20px;
+        margin-top: 16px;
+        border-right: none;
+    }
+    main .main_cards .main_card1{
+        display: flex;
+        gap: 32px;
+        padding-bottom: 40px;
+        box-shadow: 0px 0px 5px 5px #D7D7DD;
+        padding-top: 32px;
+        border-radius: 20px;
+        margin-top: 16px;
+        border-right: none;
+    }
+    main .main_cards .main_card2{
+        display: flex;
+        gap: 32px;
+        padding-bottom: 40px;
+        box-shadow: 0px 0px 5px 5px #D7D7DD;
+        padding-top: 32px;
+        border-radius: 20px;
+        margin-top: 16px;
+    }
+    main .main_cards{
+        img{
+            width: 92px;
+            height: 92px;
+            margin-top: 20px;
+        }
+    }
+}
+@media screen and (max-width: 665px) {
+    main{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    main .main_cards .main_card{
+        display: block;
+        gap: 0;
+        padding: 0;
+        padding-left: 32px;
+        box-shadow: none;
+    }
+    main .main_cards .main_card1{
+        display: block;
+        gap: 0;
+        padding: 0;
+        padding-left: 32px;
+        box-shadow: none;
+    }
+    main .main_cards .main_card2{
+        display: block;
+        gap: 0;
+        padding: 0;
+        padding-left: 32px;
+        box-shadow: none;
+    }
+    main .main_cards{
+        box-shadow: 0px 0px 5px 5px #D7D7DD;
+    }
+}

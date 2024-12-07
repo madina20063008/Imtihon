@@ -1,0 +1,96 @@
+footer{
+    font-family: "Exo 2", sans-serif;
+    background-color: #0B7572;
+    margin-top: 126px;
+    margin-right: 8px;
+    .footer_main{
+        margin-top: 59px;
+        margin-left: 49px;
+        display: flex;
+        justify-content: space-between;
+        .footer_img{
+            margin-top: 10px;
+        }
+        .footer_main_text{
+            width: 366px;
+            display: flex;
+            justify-content: space-between;
+            .footer_text{
+                span{
+                    display: block;
+                    color: white;
+                    padding-bottom: 25px;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 19.5px;
+                    letter-spacing: 16%;
+                }
+            }
+            .footer_text1{
+                span{
+                    display: block;
+                    color: white;
+                    padding-bottom: 15px;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 19.5px;
+                    letter-spacing: 16%;
+                }
+        }
+        }
+        }
+        .footer_contact{
+            button{
+                background-color: #FF9619;
+                display: block;
+                color: white;
+                margin-top: 32px;
+                border: none;
+                padding: 10px 11px;
+                
+                display: flex;
+                justify-content: space-between;
+                img{
+                    width: 15px;
+                }
+            }
+            span{
+                display: block;
+                color: white;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19.5px;
+                margin-top: 32px;
+            }
+            .picture{
+                width: 27px;
+                height: 27px;
+                margin-right: 10px;
+            }
+        }
+    .footer_bottom{
+        margin-top: 50px;
+        text-align: center;
+        span{
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 16%;
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    footer .footer_main{
+        display: block !important;
+    }
+    footer .footer_main .footer_main_text{
+        margin-top: 23px;
+        width: 314px;
+    }
+    footer .footer_contact button{
+        padding: 15px 11px 10px 60px;
+        width: 350px !important;
+        height: 50px !important;
+    }
+}
